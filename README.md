@@ -1,13 +1,8 @@
 # papel
 A raw text document router for writing papers in APA format
 
-#Instructions
+# Instructions
 Write your paper within raw.txt
-New paragraphs are created for each instance of a double return
-Ex:
-The quick brown fox jumps 
-over the lazy dog. The quick
-brown fox.
+Press return twice to create a new paragraph
 
-[NEW PARAGRAPH]
-Jumps over the lazy dog.
+Separate your works cited, or references section with a return followed by a forward slash (add a forward slash on a new line and then hit return again)
