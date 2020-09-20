@@ -19,3 +19,12 @@ The quick brown fox jumps over the lazy dog
 /
 Doe, J. (2020). Papel README. Retrieved from https://github.com/walz0/papel/README.md
 ```
+- Press return twice to create a new citation
+```
+The quick brown fox jumps over the lazy dog
+/
+Walz, A. (2020). Papel README. 
+Retrieved from https://github.com/walz0/papel/README.md
+
+Walz, A. (2020). A new citation. Retrieved from https://github.com/walz0/papel/README.md
+```
