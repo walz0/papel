@@ -17,5 +17,5 @@ previous paragraph.
 ```
 The quick brown fox jumps over the lazy dog
 /
-This is a citation. Doe, J. (2020)
+Doe, J. (2020). Papel README. Github. https://github.com/walz0/papel/README.md
 ```
