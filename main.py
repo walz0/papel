@@ -153,7 +153,7 @@ if __name__ == "__main__":
         # Add Works Cited title
         output += "<p style='text-align: center; text-indent: 0; font-weight: bold; margin: 35px 0 -10px 0'>References</p>"  
         # Previous citation start index
-        prev = wc_index 
+        prev = 0 
         # Crop raw text to works cited section
         raw = raw[wc_index:]
         # Count new lines
@@ -166,8 +166,7 @@ if __name__ == "__main__":
         for i in range(len(raw)):
             # If new line (citation)
             if i != 0:
-                if raw[i] == "\n": # If new line consecutive
-                    if i in nl:
+                if i in nl and i+1 in nl: # If new line consecutive
                     # Add new citation
                     addCitation(raw[prev:i])
                     prev = i 
@@ -175,5 +174,4 @@ if __name__ == "__main__":
 
     """
         Fix links in citations zooming out the page
-        Fix new lines in citations creating new citations 
     """
