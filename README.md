@@ -28,8 +28,8 @@ Retrieved from https://github.com/walz0/papel/README.md
 
 Walz, A. (2020). A new citation. Retrieved from https://github.com/walz0/papel/README.md
 ```
-- When you are finished writing, run main.py. This will generate output.html which will contain your formatted paper. To convert to pdf, open output.html in your browser and press CTRL+P, select print to PDF. Standard APA margins are 1 inch on all sides, make sure to disable headers / footers.
-- If you wish to change some of the styling options you can run main.py with additional parameters:
+- When you are finished writing, run papel.py. This will generate output.html which will contain your formatted paper. To convert to pdf, open output.html in your browser and press CTRL+P, select print to PDF. Standard APA margins are 1 inch on all sides, make sure to disable headers / footers.
+- If you wish to change some of the styling options you can run papel.py with additional parameters:
 ```
   -s :: font-size
   -i :: text-indent
