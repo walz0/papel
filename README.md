@@ -37,4 +37,3 @@ Walz, A. (2020). A new citation. Retrieved from https://github.com/walz0/papel/R
   
   Syntax: python3 main.py -s 18 -i 50 -h 20
 ```
-- You may pass any number of these parameters followed by an integer.
