@@ -13,13 +13,13 @@ This is a new paragraph because it
 is separated by a new line from the
 previous paragraph.
 ```
-- Separate your works cited, or references section with a return followed by a forward slash
+- Separate your works cited, or references section with a newline followed by a forward slash
 ```
 The quick brown fox jumps over the lazy dog
 /
 Doe, J. (2020). Papel README. Retrieved from https://github.com/walz0/papel/README.md
 ```
-- Press return twice to create a new citation
+- Two newlines creates a new citation
 ```
 The quick brown fox jumps over the lazy dog
 /
