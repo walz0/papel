@@ -1,3 +1,30 @@
-Example Paragraph
+Effects of Foxes Jumping over Lazy Dogs: An Environmental Study
+
+Aidan Walz
+
+Department of Cats and Dogs, Insert University
+
+ABCD 204: Insert Class Name
+
+Dr. Ben Dover
+
+April 1, 2022
+\
+The quick brown fox jumps over the lazy
+dog. The quick brown fox jumps over the
+lazy dog. The quick brown fox jumps over
+the lazy dog. This is a new sentence
+testing a new sentence.
+
+Tlisthe quick brown fox jumps over the lazy dog.
+Tlisthe quick brown fox jumps over the lazy dog.
+Tlisthe quick brown fox jumps over the lazy dog.
 /
-Example Citation
+Myers, M., Paiz, J., Angeli, E., 
+Wagner, J., Lawrick, 
+E., Moore, K., Anderson, 
+M.,Keck, R. (2019, December 20). General format. 
+Purdue Online Writing Lab.
+
+Myers, M., Paiz, J., Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M.,Keck, R. (2019, December 20). General format. Purdue Online Writing Lab.
+
