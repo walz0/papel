@@ -18,46 +18,28 @@ tab_stop = 4
 
 def init():
     global output
-    # DEFAULTS
-    options = {
-        '-s' : 17, # font-size
-        '-i' : 50, # text-indent 
-        '-h' : 2   # line-height 
-    }
-    if len(sys.argv) > 1:
-        for o in options:
-            if o in sys.argv:
-                options[o] = select_args(o)
-    
     # This should be loaded from a css file
-    output += "<!DOCTYPE html><html>"
-    output += "<style>"
-    output += "body {font-size: %spx; " % (str(options['-s']))
-    output += "text-indent: %spx; " % (str(options['-i']))
-    output += "line-height: %s}" % (str(options['-h']))
-    output += ".citation { padding-left: 36px; text-indent: -36px }"
-    output += ".title-page { line-height: 1.5; text-align: center }"
-    output += "</style>"
-    output += "<body>"
+    output += """
+        <!DOCTYPE html>
+        <html>
+        <style>
+            body {
+                font-size: 17px;
+                text-indent: 50px;
+                line-height: 2;
+            }
+            .citation { 
+                padding-left: 36px; 
+                text-indent: -36px 
+            }
+            .title-page { 
+                line-height: 1.5; 
+                text-align: center 
+            }
+        </style>
+        <body>
+    """
     pass
-
-def select_args(option):
-    """
-        ARGUMENTS:
-            -s :: font-size
-            -i :: text-indent 
-            -h :: line-height 
-    """
-    # Screen args for selected option
-    for i in range(1, len(sys.argv)):
-        if sys.argv[i] == option: # If option selected 
-            if i != len(sys.argv) - 1: # If not at the end of args
-                try:
-                    # If size arg is an integer
-                    if int(sys.argv[i + 1]):
-                        return int(sys.argv[i + 1])
-                except:
-                    print("ERROR: Argument not valid, please use the syntax \"{} [integer]\"".format(option))
 
 def addTitlePage(raw, nl):
     global output
@@ -247,6 +229,7 @@ if __name__ == "__main__":
     """
         -Footers
         -Page Numbers
+        -Running Head
         -Save as PDF (use selenium to automate chrome print to PDF with 1" margins)
         -Fix links in citations zooming out the page
     """
